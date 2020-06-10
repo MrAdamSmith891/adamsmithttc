@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Impact 2 Final Test</title>
+<style>
+body {
+  font-family: calibri;
+}
+table {
+  border-collapse: collapse;
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  font-size: 20px;
+}
+
+.section {
+  text-align: center;
+  background: #dddddd;
+  font-size: 200%;
+}
+td, th {
+  border: 1px solid #ffffff;
+  text-align: left;
+  vertical-align: top;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+li{
+    margin: 10px 0;
+}
+</style>
+</head>
+<form name="submit-to-google-sheet" onSubmit="return confirm('Do you want to submit?') ">
+<div class="header"><h1>Impact 2<br>Final Test</h1></div>
+<div style="display: flex; justify-content: flex-end; padding: 15px;"><label for="Name"><b>Name:</b></label>&nbsp;&nbsp;<input type="text" id="Name" name="StudentName" required></div>
+<div class="section">Vocabulary</div>
+<div><p><b>1&nbsp;&nbsp;&nbsp;&nbsp;Unscramble the letters and write the words in the sentences</b></p>
+<ol>
+  <li>An ambulance is an <input type="text" id="1" name="1" size="10" placeholder="megceyren" required> vehicle.</li>
+  <li>Each country has its own <input type="text" id="2" name="2" size="3" placeholder="falg" required>.</li>
+  <li>He had a toothache because of an <input type="text" id="3" name="3" size="8" placeholder="itnofenci" required></li>
+  <li>Make sure you never tell anyone your <input type="text" id="4" name="4" size="8" placeholder="aspdrwso" required>.</li>
+  <li>Mexico is the final <input type="text" id="5" name="5" size="10" placeholder="seidoanintt" required> on this trip.</li>
+  <li>'Extremophiles' are animals that live in extreme <input type="text" id="6" name="6" size="9" placeholder="oscndoniit" required>.</li>
+  <li>Humans, elephants and mice are all examples of <input type="text" id="7" name="7" size="8" placeholder="mamslam" required>.</li>
+  <li>Fruit and vegetables account for the highest percentage of food  <input type="text" id="8" name="8" size="4" placeholder="stwae" required>.</li>
+  <li>Some cities allow artists to paint <input type="text" id="9" name="9" size="6" placeholder="itfrfgai" required> on walls in certain areas.</li>
+  <li>The local news said that there are fewer than sixty <input type="text" id="10" name="10" size="8" placeholder="rosurvisv" required>.</li>
+  </ol>
+</div>
+<div><p><b>2&nbsp;&nbsp;&nbsp;&nbsp;Match the words to make phrases.</b></p><ol>
+	<li>Be in <select id="11" name="11">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+    <li>Make <select id="12" name="12">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+    <li>Pay attention <select id="13" name="13">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+    <li>Rely <select id="14" name="14">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+    <li>Find <select id="15" name="15">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+    <li>Set <select id="16" name="16">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+    <li>Take <select id="17" name="17">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+    <li>Throw <select id="18" name="18">
+  <option value=""></option>
+  <option value="entrepreneur">away</option>
+  <option value="geyser">off</option>
+  <option value="identity">on</option>
+  <option value="methods">out</option>
+  <option value="misconception">over</option>
+  <option value="perfectionist">sure</option>
+  <option value="performers">to</option>
+  <option value="poison">trouble</option>
+</select>.</li>
+</ol></div>
+<div><p><b>3&nbsp;&nbsp;&nbsp;&nbsp;Complete the sentences using the phrases from Activity 2.</b></p>
+<ol>
+  <li>They <input type="text" id="19" name="19" size="6" required> on their journey yesterday at midday.</li>
+  <li>Did you <input type="text" id="20" name="20" size="6" required> what happened to the motor?</li>
+  <li>During the experiment, we were told to <input type="text" id="21" name="21" size="6" required> the liquid and watch what happened when the chemical was added.</li>
+  <li>You need to check the source carefully and not necessarily <input type="text" id="22" name="22" size="6" required> the information on the Internet.</li>
+  <li>Do you think that robots are going to <input type="text" id="23" name="23" size="6" required> people’s jobs?</li>
+  <li>In an attempt to reduce waste, the government is considering fining people who <input type="text" id="24" name="24" size="6" required> too much food.</li>
+  <li>If I catch you talking in class again, you will <input type="text" id="25" name="25" size="6" required>.</li>
+  <li>The police were there to <input type="text" id="26" name="26" size="6" required> the fans didn’t fight.</li>
+</ol></div>
+<div>
+<p><b>4&nbsp;&nbsp;&nbsp;&nbsp;Match the sentence halves.</b></p>
+<table>
+  <tr>
+    <td>1</td>
+    <td>In China, the number eight</td>
+    <td>
+      <select id="27" name="27">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Eat plenty of vegetables </td>
+    <td>
+      <select id="28" name="28">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Chatrooms, blogs and vlogs </td>
+    <td>
+      <select id="29" name="29">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Singapore is home </td>
+    <td>
+      <select id="30" name="30">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>The village was destroyed </td>
+    <td>
+      <select id="31" name="31">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Although the talk was amusing, </td>
+    <td>
+      <select id="32" name="32">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>The exhibition is temporary </td>
+    <td>
+      <select id="33" name="33">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>In some places, it is illegal </td>
+    <td>
+      <select id="34" name="34">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>The campaign to reduce waste </td>
+    <td>
+      <select id="35" name="35">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Animal survival depends on </td>
+    <td>
+      <select id="36" name="36">
+        <option value=""></option>
+        <option>to some beautiful public spaces.</option>
+        <option>so let’s visit it soon</option>
+        <option>to play loud music after dark.</option>
+        <option>by the earthquake.</option>
+        <option>is going well.</option>
+        <option>are examples of social media</option>
+        <option>their ability to adapt to their environment.</option>
+        <option>often signals good luck.</option>
+        <option>to strengthen your immune system.</option>
+        <option>he made some serious points.</option></select>
+        </td>
+  </tr>
+</table>
+</div>
+<div>
+<p><b>5&nbsp;&nbsp;&nbsp;&nbsp;Match the words to the definitions.</b></p>
+<ol>
+  <li>&nbsp;&nbsp;<select id="37" name="37">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;to break down into materials that can be absorbed and used by the body.</li>
+  <li>&nbsp;&nbsp;<select id="38" name="38">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;the end of life of a living thing.
+  </li>
+  <li>&nbsp;&nbsp;<select id="39" name="39">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;a chance that something bad or harmful will happen.</li>
+  <li>&nbsp;&nbsp;<select id="40" name="40">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;a substance that is used to give color to cloth, hair, or other materials.</li>
+  <li>&nbsp;&nbsp;<select id="41" name="41">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;to ask for forcefully.</li>
+  <li>&nbsp;&nbsp;<select id="42" name="42">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;to become less or smaller.</li>
+  <li>&nbsp;&nbsp;<select id="43" name="43">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;very sad.</li>
+  <li>&nbsp;&nbsp;<select id="44" name="44">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;storing, using, or sending information electronically in the form of numbers.</li>
+  <li>&nbsp;&nbsp;<select id="45" name="45">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;the act or result of making up one's mind.</li>
+  <li>&nbsp;&nbsp;<select id="46" name="46">
+       <option value=""></option>
+       <option>danger</option>
+       <option>death</option>
+       <option>decision</option>
+       <option>decrease</option>
+       <option>demand</option>
+       <option>depressed</option>
+       <option>digital</option>
+       <option>digest</option>
+       <option>disease</option>
+       <option>dye</option></select>
+       &nbsp;&nbsp;illness or sickness.</li>
+</ol>
+</div>
+<div class="section">Grammar</div>
+<div><p><b>6&nbsp;&nbsp;&nbsp;&nbsp;Complete the gaps with <i>the</i> if necessary.</b></p>
+<p>The Eco Reserva is a former game-hunting park which has been turned into an educational nature reserve. Visitors of all <select id="47" name="47"><option value=""></option><option>the</option></select> ages can get up close to <select id="48" name="48"><option value=""></option><option>the</option></select> animals such as <select id="49" name="49"><option value=""></option><option>the</option></select> deer and foxes while learning about <select id="50" name="50"><option value=""></option><option>the</option></select> environment. Some of <select id="51" name="51"><option value=""></option><option>the</option></select> activities hosted by <select id="52" name="52"><option value=""></option><option>the</option></select> reserve include <select id="53" name="53"><option value=""></option><option>the</option></select> photography days and forest school visits. A spokesman for <select id="54" name="54"><option value=""></option><option>the</option></select> reserve said they
+wanted to create a place for <select id="55" name="55"><option value=""></option><option>the</option></select> people to connect with <select id="56" name="56"><option value=""></option><option>the</option></select> nature and learn how to protect it. </p>
+</div>
+<div><p><b>7&nbsp;&nbsp;&nbsp;&nbsp;Answer these questions with full answers using the prompts.</b></p>
+<ol>
+<li>When did they hear the alarm?</li>
+<input type="text" id="57" name="57" size="50" placeholder="at midnight" required>
+<li>Why did he go to hospital?</li>
+<input type="text" id="58" name="58" size="50" placeholder="because of an infection" required>
+<li>When did they build the wall?</li>
+<input type="text" id="59" name="59" size="50" placeholder="in 790 AD" required>
+<li>How far did he ride?</li>
+<input type="text" id="60" name="60" size="50" placeholder="3,000 kilometres" required>
+<li>When did the explorers' ship sink?</li>
+<input type="text" id="61" name="61" size="50" placeholder="in 1790" required>
+<li>Which design did they select?</li>
+<input type="text" id="62" name="62" size="50" placeholder="Aisha's" required>
+<li>This fish is delicious. How did they cook it?</li>
+<input type="text" id="63" name="63" size="50" placeholder="fry in olive oil" required>
+<li>Did your team win anything?</li>
+<input type="text" id="64" name="64" size="50" placeholder="yes, a trophy" required>
+</ol></div>
+<div><p><b>8&nbsp;&nbsp;&nbsp;&nbsp;Complete the sentences by writing the verbs in the present perfect.</b> <a href="https://www.englishpage.com/irregularverbs/irregularverbs.html" target="_blank">(Irregular verbs)</a></p>
+<ol>
+ <li>Rescuers <input type="text" id="65" name="65" size="15" placeholder="(warn)" required> that there may be more people trapped under the snow.</li>
+ <li>Sadly, the disease <input type="text" id="66" name="66" size="15" placeholder="(spread)" required> to other parts of his body.</li>
+ <li>Social media <input type="text" id="67" name="67" size="15" placeholder="(change)" required> the way we communicate with people.</li>
+ <li>The builders <input type="text" id="68" name="68" size="15" placeholder="(make sure)" required> that the area is secure.</li>
+ <li>Crocodiles <input type="text" id="69" name="69" size="15" placeholder="(inhabit)" required> the area for thousands of years.</li>
+ <li>The council workers <input type="text" id="70" name="70" size="15" placeholder="(take down)" required> all the illegal posters.</li>
+ <li>The policy makers <input type="text" id="71" name="71" size="15" placeholder="(suggest)" required> that this is a benefit to society.</li>
+ <li>Seismologists <input type="text" id="72" name="72" size="15" placeholder="(predict)" required> that an earthquake might happen soon.</li>
+</ol>
+</div>
+<div>
+<p><b>9&nbsp;&nbsp;&nbsp;&nbsp;Complete the sentences using the past simple or the present perfect.</b></p>
+<ol>
+  <li>She <select id="73" name="73"><option value=""></option><option>made</option><option>has made</option></select> several documentaries detailing her work. She <select id="74" name="74"><option value=""></option><option>made</option><option>has made</option></select> one called ‘Light from Dark’ last year.     </li>
+  <li>He <select id="75" name="75"><option value=""></option><option>didn't exhibit</option><option>hasn't exhibited</option></select> his artwork in New York yet. However, last year, he <select id="76" name="76"><option value=""></option><option>exhibited</option><option>has exhibited</option></select> some sculptures in Bilbao. 
+  </li>
+  <li>They <select id="77" name="77"><option value=""></option><option>worked on</option><option>have worked on</option></select> this project since 2005. They <select id="78" name="78"><option value=""></option><option>won</option><option>have won</option></select> an award for their work in 2010.
+  </li>
+  <li>The earthquake <select id="79" name="79"><option value=""></option><option>struck</option><option>has struck</option></select> at 6.03 a.m. Thankfully, rescue teams <select id="80" name="80"><option value=""></option><option>confirmed</option><option>have confirmed</option></select> that there are no casualties. 
+  </li>
+</ol>
+</div>
+<div>
+<p><b>10&nbsp;&nbsp;&nbsp;&nbsp;Select the correct indefinite pronoun.</b></p>
+<ol>
+<li><select id="81" name="81"><option value=""></option><option>Anyone</option><option>Someone</option></select> sent me an email, but I don’t know who it’s from.</li>
+<li>Can we go <select id="82" name="82"><option value=""></option><option>nowhere</option><option>somewhere</option></select> private to talk about the symptoms?</li>
+<li>During Chinese New Year, you can see the colour red <select id="83" name="83"><option value=""></option><option>everywhere</option><option>somewhere</option></select> you look.</li>
+<li>The virus hasn’t been found <select id="84" name="84"><option value=""></option><option>everywhere</option><option>anywhere</option></select> else.</li>
+<li>Nowadays, almost <select id="85" name="85"><option value=""></option><option>everyone</option><option>someone</option></select> uses social media.</li>
+<li>I was surprised by <select id="86" name="86"><option value=""></option><option>something</option><option>nothing</option></select> you said during your lecture.</li>
+<li>They looked <select id="87" name="87"><option value=""></option><option>everywhere</option><option>somewhere</option></select> for her earring but they couldn’t find it.</li>
+<li><select id="88" name="88"><option value=""></option><option>No one</option><option>Nowhere</option></select> is allowed onto the site after dark.</li>
+</ol>
+</div>
+<div class="section">Reading</div>
+<p><b>11&nbsp;&nbsp;&nbsp;&nbsp;Find these words in the text. Match them to their definitions.</b></p>
+<ol>
+<li>&nbsp;&nbsp;<select id="89" name="89">
+       <option value=""></option>
+       <option>endurance</option>
+       <option>hormone</option>
+       <option>reaction</option>
+       <option>stressful</option>
+       <option>substances</option>
+       <option>unsuspecting</option></select>
+       &nbsp;&nbsp;particular types of liquids, solids, or gasses</li>
+<li>&nbsp;&nbsp;<select id="90" name="90">
+       <option value=""></option>
+       <option>endurance</option>
+       <option>hormone</option>
+       <option>reaction</option>
+       <option>stressful</option>
+       <option>substances</option>
+       <option>unsuspecting</option></select>
+       &nbsp;&nbsp;causing a lot of worry and anxiety</li>
+<li>&nbsp;&nbsp;<select id="91" name="91">
+       <option value=""></option>
+       <option>endurance</option>
+       <option>hormone</option>
+       <option>reaction</option>
+       <option>stressful</option>
+       <option>substances</option>
+       <option>unsuspecting</option></select>
+       &nbsp;&nbsp;the way that you feel or behave in response to something</li>
+<li>&nbsp;&nbsp;<select id="92" name="92">
+       <option value=""></option>
+       <option>endurance</option>
+       <option>hormone</option>
+       <option>reaction</option>
+       <option>stressful</option>
+       <option>substances</option>
+       <option>unsuspecting</option></select>
+       &nbsp;&nbsp;not knowing about something that is going to happen</li>
+<li>&nbsp;&nbsp;<select id="93" name="93">
+       <option value=""></option>
+       <option>endurance</option>
+       <option>hormone</option>
+       <option>reaction</option>
+       <option>stressful</option>
+       <option>substances</option>
+       <option>unsuspecting</option></select>
+       &nbsp;&nbsp;a chemical substance found in your body</li>
+<li>&nbsp;&nbsp;<select id="94" name="94">
+       <option value=""></option>
+       <option>endurance</option>
+       <option>hormone</option>
+       <option>reaction</option>
+       <option>stressful</option>
+       <option>substances</option>
+       <option>unsuspecting</option></select>
+       &nbsp;&nbsp;the ability to continue to do something difficult
+</li>
+</ol>
+<p><b>12&nbsp;&nbsp;&nbsp;&nbsp;Read the article and answer the questions below</b></p>
+<div style="border: 1px solid black; padding: 20px; background-color: #eeeeff;"><p style="text-align:center;"><b>A healthy scare</b></p>
+<p>Do your friends sometimes leap out at you from behind a door, shout ‘boo’ and make you jump? When this happens, does your heart start pumping faster and you feel a change in emotion? This reaction is caused by fear, and, according to research, this can actually be good for you.</p>
+<p>When faced with something that frightens you, your brain is instantly flooded with a mix of healthy chemicals that often make you feel very awake, alert and excited. This chemical mix includes substances which create feelings of happiness together with a hormone called ‘oxytocin’ which scientists believe is responsible for helping people form bonds with each other. When people share the feeling of being scared, they can become closer friends. Think about groups of people getting off a rollercoaster – they will all be in a state of high excitement, with lots of big smiles and excited chatter. </p>
+<p>Evidence suggests that this feeling of fear can help people manage situations which they find stressful, such as giving a presentation in class or performing in a school play. But the more you do these stressful things, the more your body becomes used to them. By doing this, you can build up an endurance to fear and give yourself more confidence. By repeatedly experiencing this emotion, you are better able to deal with the feeling. </p>
+<p>But, before you think it’s a great idea to constantly hide behind doors lying in wait for unsuspecting friends, remember that people experience fear in different ways. What might be fun for one person might be far too scary for someone else, especially young children. But for the majority of us, the occasional fright won’t do us any harm. In fact, it may be even be healthy.</p></div>
+<div>
+<ol style="padding-left: 20px;">
+<li>In the first paragraph, the writer asks …</li>
+<input type="radio" id="95a" name="95" value="a" required>
+  <label for="95a">why people think it’s a good idea to frighten
+other people.</label><br>
+  <input type="radio" id="95b" name="95" value="b">
+  <label for="95b">if your body reacts in a certain way after
+experiencing a fright.</label>
+<li>When you feel fear, your brain …</li>
+<input type="radio" id="96a" name="96" value="a" required>
+  <label for="96a">receives chemicals which change the way you
+feel.</label><br>
+  <input type="radio" id="96b" name="96" value="b">
+  <label for="96b">sends out chemicals to wake you up.</label>
+  <li>‘Oxytocin’ is a hormone which …</li>
+  <input type="radio" id="97a" name="97" value="a" required>
+  <label for="97a">makes you feel scared.</label><br>
+  <input type="radio" id="97b" name="97" value="b">
+  <label for="97b">helps you form friendships.</label>
+  <li>The writer talks about rollercoasters because …</li>
+  <input type="radio" id="98a" name="98" value="a" required>
+  <label for="98a">they are places where most people experience fear.</label><br>
+  <input type="radio" id="98b" name="98" value="b">
+  <label for="98b">they are places where most people make friends.</label>
+  <li>The writer suggests that people …</li>
+  <input type="radio" id="99a" name="99" value="a" required>
+  <label for="99a">shouldn’t take part in frightening activities.</label><br>
+  <input type="radio" id="99b" name="99" value="b">
+  <label for="99b">should do frightening activities to get used to them.
+</label>
+  <li>The writer says it’s important to remember …</li>
+  <input type="radio" id="100a" name="100" value="a" required>
+  <label for="100a">that people will suspect you of being frightened.</label><br>
+  <input type="radio" id="100b" name="100" value="b">
+  <label for="100b">that people can tolerate different levels of fear.
+</label>
+</ol>
+  </div>
+  <div class="section">Writing</div>
+<p><b>13&nbsp;&nbsp;&nbsp;&nbsp;Choose a unit and a type of essay. Write between 120 and 180 words.</b></p>
+Unit: <select id="essayunit" name="essayunit"><option></option><option>1) Colour Matters</option><option>2) Feeling Good?</option><option>3) Your Virtual Self</option><option>4) Underwater Mysteries</option><option>5) Life in the Extreme</option><option>6) Are You Going to Eat That?</option><option>7) Art in the Open</option><option>8) Don't Panic!</option></select>&nbsp;&nbsp;&nbsp;&nbsp;Essay: <select id="essaytype" name="essaytype"><option></option><option>Descriptive paragraph</option><option>Classification essay</option><option>Fact and opinion essay</option><option>Contrast essay</option><option>Persuasive essay</option><option>Cause and effect essay</option><option>Process essay</option><option>Narrative essay</option></select>
+<br><br><textarea id="101" name="101" cols="120" rows="20" required></textarea><br><br>
+<input type="submit" value="Submit">
+</form>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxqpr3mB8CFmue9pYoTq3IZstPxyKEds_OOxN3RW3ehdPVyTdIH/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener("submit", e => {
+    e.preventDefault()
+    fetch(scriptURL, {
+	    method: "POST",
+		body: new FormData(form)
+      })
+      .then(response => console.log("Success!", response))
+      .catch(error => console.error("Error!", error.message))
+	  window.location.href = 'https://sites.google.com/view/adamttc/impact/impact-2-final-test';
+  })
+</script>
+</html>
